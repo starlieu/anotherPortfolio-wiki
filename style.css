@@ -130,7 +130,7 @@ main {
 
 .btn-secondary {
   background: var(--blue);
-  border: 2px solid rgba(57, 127, 214, 0.25);
+  border: 2px solid rgba(90, 149, 221, 0.25);
   color: var(--white);
   padding: 1.1rem 1.6rem;
   border-radius: 18px;
