@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maxence Leclerc — Pour l'avenir</title>
+    <meta
+      name="description"
+      content="Site de présentation de Maxence Leclerc."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="nav container" aria-label="Navigation principale">
+        <a href="#top" class="logo" aria-label="Accueil Maxence Leclerc">MAXENCE</a>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#profil">Profil</a>
+          <a href="#proposition">Proposition</a>
+          <a href="#vote">Vote</a>
+        </div>
+
+        <a href="#vote" class="btn btn-primary btn-nav">VOTER →</a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-expanded="false"
+          aria-controls="navLinks"
+          aria-label="Ouvrir le menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero container reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">CANDIDATURE</p>
+          <h1>
+            VOTEZ<br />
+            <span class="text-yellow">MAXENCE</span><br />
+            LECLERC
+          </h1>
+
+          <div class="hero-tag-box">
+            <span>POUR L'AVENIR !</span>
+          </div>
+
+          <p class="lead">
+            Retrouvez ici les informations concernant la candidature, la proposition
+            présentée et l'accès direct au vote.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#vote" class="btn btn-primary">VOTER MAINTENANT</a>
+            <a href="#proposition" class="btn btn-secondary">DÉCOUVRIR →</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Portrait de Maxence Leclerc">
+          <div class="photo-frame">
+            <div class="photo-backdrop"></div>
+            <img src="avatar.jpg" alt="Portrait de Maxence Leclerc" />
+            <div class="sticker">
+              <span>POUR</span>
+              <span>L'AVENIR</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="ticker-wrap" aria-label="Défilement de slogan">
+        <div class="ticker-track">
+          <span>MAXENCE LECLERC</span>
+          <span>-</span>
+          <span>POUR L'AVENIR</span>
+          <span>-</span>
+          <span>MAXENCE LECLERC</span>
+          <span>-</span>
+          <span>POUR L'AVENIR</span>
+        </div>
+      </div>
+
+      <section id="profil" class="container section reveal">
+        <div class="section-kicker">
+          <span>01</span>
+          <h2>PROFIL</h2>
+        </div>
+
+        <div class="section-title-wrap">
+          <h3>QUI EST<br /><span>MAXENCE ?</span></h3>
+        </div>
+
+        <div class="profile-grid">
+          <article class="info-card card-dark">
+            <div class="card-icon">CANDIDAT</div>
+            <h4>Maxence<br />Leclerc</h4>
+            <p>
+              Une page centrale pour présenter la candidature, retrouver les
+              informations essentielles et accéder directement au vote.
+            </p>
+          </article>
+
+          <article class="info-card card-blue">
+            <div class="card-icon">•</div>
+            <h4>Une proposition<br />concrète</h4>
+            <p>Une idée présentée clairement avec son objectif.</p>
+          </article>
+
+          <article class="info-card card-yellow">
+            <div class="card-icon">✓</div>
+            <h4>Un vote<br />simple</h4>
+            <p>Le vote est effectué grâce à Microsoft Forms.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="proposition" class="container section reveal">
+        <div class="section-kicker">
+          <span>02</span>
+          <h2>PROPOSITION</h2>
+        </div>
+
+        <div class="section-title-wrap proposition-title">
+          <h3>POUR DES<br /><span class="text-violet">TOILETTES</span><br />PLUS AGRÉABLES</h3>
+        </div>
+
+        <article class="proposal-card reveal">
+          <div class="proposal-header">
+            <span class="proposal-number">01</span>
+            <div class="proposal-label">PROPOSITION PRÉSENTÉE</div>
+            <span class="proposal-arrow" aria-hidden="true">↗</span>
+          </div>
+
+          <div class="proposal-body">
+            <h4>Régler les canalisations<br />des toilettes</h4>
+            <p>
+              La proposition présentée sur l'affiche consiste à régler les
+              canalisations des toilettes afin d'améliorer les odeurs.
+            </p>
+          </div>
+        </article>
+
+        <article class="proposal-card reveal" aria-label="Deuxième proposition">
+          <div class="proposal-header">
+            <span class="proposal-number">02</span>
+            <div class="proposal-label">PROPOSITION PRÉSENTÉE</div>
+            <span class="proposal-arrow" aria-hidden="true">↗</span>
+          </div>
+
+          <div class="proposal-body">
+            <h4>Ouvrir une classe<br />CAP Restauration</h4>
+            <p>
+              Discuter avec le directeur pour étudier l’ouverture d’une classe CAP
+              Restauration. Cela permettrait de proposer une nouvelle formation et
+              de développer un restaurant gastronomique au sein du lycée, avec
+              davantage de possibilités pour les élèves.
+            </p>
+            <div class="proposal-badge">⚜️ Restaurant gastronomique</div>
+          </div>
+        </article>
+      </section>
+
+      <section id="vote" class="vote-section reveal">
+        <div class="container vote-grid">
+          <div class="vote-copy">
+            <h3>
+              À VOUS<br />
+              <span class="text-violet">DE VOTER.</span>
+            </h3>
+
+            <div class="scrutin-block">
+              <span class="scrutin-label">SCRUTIN</span>
+              <p>
+                Le formulaire de vote est hébergé par Microsoft Forms. Le site sert
+                uniquement de présentation et de point d'accès au vote. Le vote
+                officiel se fera au lycée, et les votes sur le forum ne seront pas
+                comptés, ils servent uniquement à titre indicatif.
+              </p>
+            </div>
+
+            <button class="btn btn-primary btn-vote" type="button" data-vote-button>
+              OUVRIR LE VOTE MICROSOFT →
+            </button>
+            <p class="vote-status" id="voteStatus">
+              Configure le lien Microsoft Forms dans script.js pour activer le
+              bulletin.
+            </p>
+          </div>
+
+          <div class="forms-preview" aria-label="Formulaire de vote Microsoft Forms">
+            <div class="preview-topbar">
+              <span class="preview-brand">MICROSOFT FORMS</span>
+            </div>
+            <iframe
+              title="Formulaire de vote Microsoft Forms"
+              src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=owEOp2muF02tbUB_Fou0Xs50xp76p7JDjd6VeGx2VCdUOEM5UVRXUERIRE1EQ1A0SDkxOFJXVFdQNi4u&embed=true"
+              frameborder="0"
+              marginwidth="0"
+              marginheight="0"
+              style="border: none; width: 100%; min-height: 520px; max-width: 100%; max-height: 100vh; border-radius: 18px; background: #fff;"
+              allowfullscreen
+              webkitallowfullscreen
+              mozallowfullscreen
+              msallowfullscreen>
+            </iframe>
+            <p class="preview-note">Le formulaire est intégré directement dans la page.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container section reveal">
+        <div class="section-kicker">
+          <span>03</span>
+          <h2>PROJETS</h2>
+        </div>
+
+        <div class="section-title-wrap">
+          <h3>LES PROJETS<br /><span>AVANT LE LYCÉE</span></h3>
+        </div>
+
+        <article class="project-showcase reveal">
+          <div class="project-showcase-image">
+            <img src="affiche_autisme.jpg" alt="Affiche de la fête de l’autisme" />
+          </div>
+
+          <div class="project-showcase-copy">
+            <span class="project-showcase-number">01</span>
+            <h4>FÊTE DE L’AUTISME</h4>
+            <p>
+              Organiser une fête dédiée à l’autisme afin de sensibiliser les élèves,
+              favoriser l’inclusion et créer un moment convivial autour de la
+              diversité.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="container section info-section reveal">
+        <div class="section-kicker">
+          <span>04</span>
+          <h2>INFORMATIONS</h2>
+        </div>
+
+        <div class="section-title-wrap">
+          <h3>COMMENT<br /><span>ÇA MARCHE ?</span></h3>
+        </div>
+
+        <div class="faq-list">
+          <details open>
+            <summary>Où voter ?</summary>
+            <p>
+              Le bouton de vote ouvre le formulaire Microsoft Forms utilisé pour le
+              scrutin. Le suffrage officiel se déroulera au lycée, et les votes
+              exprimés sur le forum ne sont pas comptés.
+            </p>
+          </details>
+
+          <details>
+            <summary>Le site enregistre-t-il mon vote ?</summary>
+            <p>
+              Non. Le site ne possède pas de système de stockage de votes. Les
+              votes du forum servent uniquement à titre indicatif et ne sont pas
+              comptés. Les réponses officielles sont gérées directement par
+              Microsoft Forms.
+            </p>
+          </details>
+
+          <details>
+            <summary>Comment fonctionne Microsoft Forms ?</summary>
+            <p>
+              Microsoft Forms permet de créer le formulaire, récupérer les réponses
+              et configurer les paramètres du scrutin.
+            </p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">MAXENCE</div>
+        <div class="footer-links">
+          <span>PRÉSENTATION · PROPOSITION · VOTE</span>
+        </div>
+        <a href="#top" class="back-to-top">RETOUR EN HAUT ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
