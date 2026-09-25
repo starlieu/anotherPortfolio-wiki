@@ -1,4 +1,4 @@
-const MICROSOFT_FORMS_URL = "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=owEOp2muF02tbUB_Fou0Xs50xp76p7JDjd6VeGx2VCdUOEM5UVRXUERIRE1EQ1A0SDkxOFJXVFdQNi4u&embed=true";
+const MICROSOFT_FORMS_URL = "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=owEOp2muF02tbUB_Fou0Xs50xp76p7JDjd6VeGx2VCdUOEM5UVRXUERIRE1EQ1A0SDkxOFJXVFdQNi4u";
 
 const voteButton = document.querySelector('[data-vote-button]');
 const voteStatus = document.getElementById('voteStatus');
